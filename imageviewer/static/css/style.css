@@ -1,0 +1,73 @@
+body {
+    background-color: #AFCACD;
+}
+
+.jumbotron {
+    background-color: #E1F4F6;
+}
+
+.thumbnail {
+    float: left;
+    width: 185px;
+    height: 160px;
+    margin: 5px;
+
+}
+
+/* How big the modal should be */
+.modal.modal-wide .modal-dialog {
+  width: 80%;
+}
+
+.modal-content {
+  width: 100%;
+}
+
+.thumbnail:hover {
+    background-color:#2C3539;
+    box-shadow: 0 0 5px #000;
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+img {
+   page-break-inside: avoid;
+ }
+
+.full-image {
+           height:100%;
+           width: 100%;
+        }
+
+.modal-wide .modal-body {
+  overflow-y: auto;
+}
+
+.modal-title {
+    text-align: center;
+}
+
+.next {
+    float:right;
+    text-align:right;
+}
+
+.modal {
+	overflow: auto;
+	color: #333;
+}
+
+
+.modal-backdrop.fade {
+            opacity: 0;
+        }
+
+.modal-backdrop, .modal-backdrop.fade.in {
+    opacity: 0.8;
+
+}
+
+.prev-next
+{
+  margin-bottom: 10px;
+}
